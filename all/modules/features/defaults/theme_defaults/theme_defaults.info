@@ -1,0 +1,16 @@
+name = Theme Defaults
+core = 7.x
+package = Defaults
+version = 7.x-1.0
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = system
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[user_permission][] = administer themes
+features[user_permission][] = view the administration theme
+features[variable][] = admin_theme
+features[variable][] = node_admin_theme
+features[variable][] = theme_default
+project path = sites/all/modules/features/defaults
