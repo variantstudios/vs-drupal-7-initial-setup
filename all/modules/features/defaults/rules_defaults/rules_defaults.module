@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Rules Defaults feature.
+ */
+
+include_once 'rules_defaults.features.inc';

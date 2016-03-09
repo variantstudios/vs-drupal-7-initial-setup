@@ -1,0 +1,1 @@
+This folder should only be used for features drupal defaults.

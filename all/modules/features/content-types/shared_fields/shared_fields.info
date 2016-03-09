@@ -1,0 +1,14 @@
+name = Shared Fields
+description = Add all of the fields that are shared between the content types.
+core = 7.x
+package = Content Types
+version = 7.x-1.0
+project = shared_fields
+dependencies[] = features
+dependencies[] = image
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_first_name
+features[field_base][] = field_last_name
+project path = sites/all/modules/features/content-types

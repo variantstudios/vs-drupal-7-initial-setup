@@ -1,0 +1,36 @@
+name = jQuery Update
+description = Update jQuery and jQuery UI to a more recent version.
+package = User interface
+core = 7.x
+files[] = jquery_update.module
+files[] = jquery_update.install
+
+configure = admin/config/development/jquery_update
+
+; Information added by Drupal.org packaging script on 2015-10-20
+version = "7.x-2.7"
+core = "7.x"
+project = "jquery_update"
+datestamp = "1445379855"
+
+
+----------------
+http://local.peoplesgarden/admin/structure/pages/nojs/operation/page-front_page/handlers/page_front_page__panel_context_fedfcb41-d900-46fb-be85-9ef996304b1e/content
+-----------------------
+
+
+An AJAX HTTP error occurred.
+HTTP Result Code: 200
+Debugging information follows.
+Path: /panels/ajax/editor/select-content/panel_context%3Apage-front_page%3A%3Apage_front_page__panel_context_fedfcb41-d900-46fb-be85-9ef996304b1e%3A%3A%3A%3A/main_1/view-panes
+StatusText: parsererror
+ResponseText: 
+Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 80 bytes) in /Users/brent/VS/peoplesgarden/local/www/sites/all/modules/contrib/views/includes/base.inc on line 93
+
+An AJAX HTTP error occurred.
+HTTP Result Code: 200
+Debugging information follows.
+Path: /panels/ajax/editor/select-content/panel_context%3Apage-front_page%3A%3Apage_front_page__panel_context_fedfcb41-d900-46fb-be85-9ef996304b1e%3A%3A%3A%3A/main_1/view-panes
+StatusText: OK
+ResponseText: 
+Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /Users/brent/VS/peoplesgarden/local/www/sites/all/modules/contrib/views/plugins/views_plugin_query_default.inc on line 1578
